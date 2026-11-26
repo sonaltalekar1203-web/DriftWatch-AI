@@ -13,6 +13,10 @@ DriftWatch AI is a Python-based MLOps demonstration that detects changes between
 - Random Forest model with performance metrics
 - HTML monitoring report and JSON results
 
+## Monitoring dashboard
+
+[Open the interactive model monitoring report](reports/monitoring_report.html). The report compares four production scenarios and includes PSI/KS analysis, model-performance metrics, feature-level results, and recommendations.
+
 ## Quick start
 ```bash
 pip install -r requirements.txt
@@ -34,7 +38,8 @@ DriftWatch-AI/
 │   └── monitoring.py
 ├── tests/
 │   └── test_drift_detection.py
-├── reports/                 # generated reports
+├── reports/
+│   └── monitoring_report.html
 ├── results/                 # generated metrics
 ├── requirements.txt
 └── README.md
