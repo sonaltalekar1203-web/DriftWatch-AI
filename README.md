@@ -50,3 +50,6 @@ Python, NumPy, pandas, SciPy, scikit-learn, Matplotlib.
 
 ## Dataset and limitations
 Uses the Breast Cancer Wisconsin (Diagnostic) dataset bundled with scikit-learn. Drift scenarios are simulated for demonstration; this is not a clinically validated medical monitoring tool. Model metrics are dataset- and split-dependent and should not be interpreted as clinical performance.
+
+## Author
+**ARJUN TALKEAR**
